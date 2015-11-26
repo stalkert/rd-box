@@ -13,5 +13,14 @@ $(document).ready(function(){
 	$('#search-handler').click(function(){
 		$('#search').slideToggle('slow');
 	});
+	/*$(window).on('load resize',windowSize);
+    
+	
+	
+    function windowSize(){
+      var elem =  $('.height-recent').innerHeight();
+	  $('.height-recent').find('img').height(elem/2);
+		
+    }*/
 	
 });

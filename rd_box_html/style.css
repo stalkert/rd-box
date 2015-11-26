@@ -434,6 +434,10 @@ padding-bottom:30px;
 	margin-bottom: 0;
 	padding: 0px;
 	height:65px;
+	border: 1px solid #D4D4D4;
+	border-radius:0px;
+	position:relative;
+	padding-left: 20px;
 }
 #text-shopping-cart div:first-child{
 	
@@ -460,13 +464,7 @@ padding-bottom:30px;
 #search,#shopping-cart{
 	margin-bottom:10px;
 }
-#text-shopping-cart{
-	border: 1px solid #D4D4D4;
-	border-radius:0px;
-	position:relative;
-	padding-left: 20px;
-	
-}
+
 #shopping-cart-glif{
 	width:65px;
 	position:absolute;
@@ -536,8 +534,55 @@ font-size: 1.2em;
 	background-color: #000!important;
 }
 
-#adena-slider img{
+#reklama img{
 	width:100%;
+}
+#reklama{
+	padding-left:0;
+}
+#category-list{
+	padding-left:0;
+	padding-right:0;
+	border: 1px solid #D4D4D4;
+}
+#category-list ul li{
+	border-bottom: 1px solid #D4D4D4;
+}
+.item-img img{
+	height:190px;
+	width:auto;
+	
+}
+
+.item{
+overflow:hidden;
+	
+}
+.item-img{
+	text-align:center;
+}
+
+.item, #recent{
+	margin-top:20px;
+}
+.item-price, .item-name, .add-to-cart{
+	margin-top: 5px;
+}
+.add-to-cart{
+	background-color:#DA2028;
+	color: #fff;
+	position:relative;
+	border-radius:0;
+	font-size: 0.9em;
+}
+.add-to-cart i{
+	position:absolute;
+	right: 28px;
+	top:22px;
+	
+}
+.margin0{
+	margin:0;
 }
 #about-us,#partners{
 	background-color: #fff;
@@ -588,8 +633,8 @@ margin-top:40px;
 	font-weight:bold;
 }
 #sent .btn-default{
-	background-color:#07A987;
-	border-color:#07A987;
+	background-color:#DA2028;
+	border-color:#DA2028;
 	color:#fff;
 }
 .tab-content{
