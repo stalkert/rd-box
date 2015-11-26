@@ -13,14 +13,18 @@ $(document).ready(function(){
 	$('#search-handler').click(function(){
 		$('#search').slideToggle('slow');
 	});
-	/*$(window).on('load resize',windowSize);
-    
-	
-	
+	$(window).on('load resize',windowSize);
     function windowSize(){
-      var elem =  $('.height-recent').innerHeight();
-	  $('.height-recent').find('img').height(elem/2);
-		
-    }*/
-	
+		$('#recent').find('.item-name').css('height','auto');
+		console.log(arrItemNameHeight);
+		var arrItemNameHeight = [];
+		$('#recent').find('.item-name').each(function(i){
+			arrItemNameHeight.push($(this).height()); 
+		});
+		var x = arrItemNameHeight.sort(compareNumeric);
+		$('#recent').find('.item-name').height(x[arrItemNameHeight.length-1]);
+    }
+	function compareNumeric(a, b) {
+		return a - b;
+	}
 });
