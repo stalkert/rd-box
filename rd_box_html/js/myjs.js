@@ -24,6 +24,17 @@ $(document).ready(function(){
 		var x = arrItemNameHeight.sort(compareNumeric);
 		$('#recent').find('.item-name').height(x[arrItemNameHeight.length-1]);
     }
+	// отменяем клик по hide-simbol
+	$('#hide-simbol').click(function(event){
+		event.preventDefault();
+	});
+	$('.slider-brend ').bxSlider({
+    slideWidth: 200,
+    minSlides: 4,
+    maxSlides: 4,
+	moveSlides: 1,
+    slideMargin: 10
+  });
 	function compareNumeric(a, b) {
 		return a - b;
 	}

@@ -405,7 +405,7 @@ overflow:hidden;
 
 body {
     margin: 0;
-    font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
+    font-family:'Oswald','Open Sans', sans-serif,Verdana, Arial, Helvetica;
     font-size: 14px;
     line-height: 20px;
     color: #000;
@@ -501,7 +501,7 @@ color:#D4D4D4;
 	float: right;
 }
 #contacts span,#login span{
- font-family:Roboto, Verdana, Arial, Helvetica, sans-serif;
+ font-family:'Open Sans', Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: #000;
@@ -534,9 +534,18 @@ font-size: 1.2em;
 	color:#DA2028;
 	background-color: #000!important;
 }
-
+#hide-simbol, #hide-simbol:hover,#hide-simbol:active{
+	color: #000!important;
+	background-color:#000!important;
+	cursor: default;
+	width: 5px;
+	padding:0;
+}
+#hide{
+width:5px;
+}
 #reklama img{
-	width:100%;
+	width:102%;
 }
 #reklama{
 	padding-left:0;
@@ -549,13 +558,20 @@ font-size: 1.2em;
 #category-list ul li{
 	border-bottom: 1px solid #D4D4D4;
 }
+.item-img{
+	margin-top:20px;
+}
 .item-img img{
 
 	width:auto;
 	max-height:190px;
 }
-
 .item{
+	border:1px solid #D4D4D4;
+	
+}
+.item:not(:first-child){
+	
 	
 }
 .item-name{
@@ -566,27 +582,36 @@ font-size: 1.2em;
 	text-align:center;
 }
 .height-recent{
-border: 1px solid #D4D4D4;
+
 }
-.item, #recent{
+.item, #recent,.slider-wrapper{
 	margin-top:20px;
 }
 .item-price, .item-name, .add-to-cart{
 	margin-top: 5px;
+}
+
+.head-category{
+	background-color:#DA2028;
+	color: #fff;
+	position:relative;
+	border-radius:0;
+	font-size: 1.2em;
 }
 .add-to-cart{
 	background-color:#DA2028;
 	color: #fff;
 	position:relative;
 	border-radius:0;
-	font-size: 0.9em;
+	font-size: 0.85em;
 }
 .add-to-cart i{
 	position:absolute;
 	right: 28px;
-	top:22px;
+	top:24px;
 	
 }
+
 .margin0{
 	margin:0;
 }
@@ -604,6 +629,7 @@ border: 1px solid #D4D4D4;
 .clear{
 	clear: both;
 }
+
 #about-us h3,#partners h3{
 	padding-bottom: 20px;
 
@@ -620,12 +646,12 @@ border-bottom: 1px solid #07A987;
 font-size:1.2em;
 }
 #footer{
-margin-top:40px;
+	margin-top:40px;
 	background-color:#222222;
 	color:#999999;
 }
-#footer h3{
-	text-align:center;
+#footer h2{
+	font-family:'Open Sans';
 }
 .contact-information i{
 	font-size: 200%;
