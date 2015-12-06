@@ -677,3 +677,7 @@ font-size:1.2em;
 displey: inline-block;
 	cursor: pointer;
 }
+#wrapper-bg-second-line{
+	background-color:#2b2929;
+
+}
