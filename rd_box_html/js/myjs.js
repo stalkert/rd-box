@@ -2,7 +2,6 @@
  * Created by ITaranenko on 8/17/2015.
  */
 $(document).ready(function(){
-
 	$('.bxslider').bxSlider({
 	});
 	
