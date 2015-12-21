@@ -118,7 +118,8 @@ color:#D4D4D4;
 	margin-right: 17px;
 }
 .wrapper-bg-black{
-	background-color: #000;
+	background-color: #DA2028;
+	margin-top: 5px;
 }
 
 .padding5{
@@ -132,7 +133,7 @@ padding: 5px 0;
 }
 .active a{
 	color:#DA2028!important;
-	background-color: #000!important;
+	;
 }
 
 #navbar a, #category{
@@ -140,9 +141,19 @@ font-size: 1.2em;
 	font-weight: bold;
 	color:#fff;
 }
+#navbar li{
+	margin: 5px;
+}
+
 #navbar  li a:hover{
 	color:#DA2028;
-	background-color: #000!important;
+	
+}
+.btn-danger{
+	background-color: #de0017;
+	border-top-color: #FFE4E1;
+	border-bottom-color: #8B0000;
+	border-radius: 8px;
 }
 #hide-simbol, #hide-simbol:hover,#hide-simbol:active{
 	color: #000!important;
