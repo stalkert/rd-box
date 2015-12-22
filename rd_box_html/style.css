@@ -6,7 +6,7 @@ Version: 1.0
 
 
 
-body {
+body{
     margin: 0;
     font-family:'Oswald','Open Sans', sans-serif,Verdana, Arial, Helvetica;
     font-size: 14px;
@@ -14,6 +14,9 @@ body {
     color: #000;
     background-color: #fff;
 	height:100%;
+}
+button, a, li,input,h1,h2,h3{
+	font-family:'Oswald','Open Sans', sans-serif,Verdana, Arial, Helvetica;
 }
 a {
 	color: #000;
@@ -59,20 +62,28 @@ border-bottom: 1px solid #D4D4D4;
 #wrapper-shopping-car-text{
 	width: 125px;
 }
-#search span,#search input,#shopping-cart{
-	border-radius: 0px!important;
-	height: 65px;
+#search{
+	display: inline-block;
+	width:80%;
+	margin-top: 5px;
+	border-radius: 8px;
 }
-#search span:first-child{
-	background-color:#DA2028;
-	color:#fff;
-	font-size: 2.2em;
-	font-weight:bold;
-}
-#search,#shopping-cart{
-	margin-bottom:10px;
-}
+#button-search{
+	
+	border-radius: 8px;
+	margin-left: 5px;
+	padding: 3px 8px;
+	margin-top: -4px;
+	color: #000;
 
+}
+#button-search i{
+	font-size: 1.5em;
+	color:#DA2028;
+	top:2px;
+
+	
+}
 #shopping-cart-glif{
 	display: inline-block;
 	margin-left: 10px;
@@ -121,7 +132,9 @@ color:#D4D4D4;
 	background-color: #DA2028;
 	margin-top: 5px;
 }
-
+#third-line{
+	margin-top: 40px;
+}
 .padding5{
 padding: 5px 0;
 }
@@ -143,8 +156,12 @@ font-size: 1.2em;
 }
 #navbar li{
 	margin: 5px;
-}
+	
 
+}
+#navbar li button{
+	font-weight: bold;
+}
 #navbar  li a:hover{
 	color:#DA2028;
 	
@@ -171,13 +188,23 @@ width:5px;
 #reklama{
 	padding-left:0;
 }
-#category-list{
-	padding-left:0;
-	padding-right:0;
+
+#category-list button{
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 5px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#category-list ul{
 	border: 1px solid #D4D4D4;
 }
 #category-list ul li{
 	border-bottom: 1px solid #D4D4D4;
+}
+#four-line,#recent{
+	margin-top: 40px;
 }
 .item-img{
 	margin-top:20px;
@@ -205,7 +232,7 @@ width:5px;
 .height-recent{
 
 }
-.item, #recent,.slider-wrapper{
+.slider-wrapper{
 	margin-top:20px;
 }
 .item-price, .item-name, .add-to-cart{
@@ -218,6 +245,7 @@ width:5px;
 	position:relative;
 	border-radius:0;
 	font-size: 1.2em;
+	margin-bottom: 0px;
 }
 .add-to-cart{
 	background-color:#DA2028;
