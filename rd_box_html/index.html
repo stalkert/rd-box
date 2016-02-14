@@ -6,16 +6,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet">
 
 </head>
 <body>
-<div class="wrapper-bg">
+<!--<div class="wrapper-bg">
     <div class="container">
         <div  id="first-row" class="row padding5">
             
 				<div  id="contacts" class="col-md-7 col-sm-6 col-xs-6">
-					<i class="glyphicon glyphicon-earphone red-color"><span>+38 066 597 94 89</span></i>&nbsp  &nbsp &nbsp 
+					<i class="glyphicon glyphicon-earphone red-color"><span></span></i>&nbsp  &nbsp &nbsp 
 					<i class="glyphicon glyphicon-envelope red-color"><span>ngv.z.tune@gmail.com</span></i>	
 				</div>
                 <div  id="login" class="col-md-4 col-sm-6 col-xs-6" >
@@ -32,14 +32,31 @@
             
 		</div>		
     </div>
-</div>
+</div>-->
 <div id="wrapper-bg-second-line">
 	<div class="container">
 		<div class="row" id="second-line">
-			<div class="col-md-12" >
-				<img src="images/logo.png">
-					<!--<input type="text" class="form-control">
-					<span class="input-group-addon">Поиск</span>-->
+			<div class="col-md-2 col-md-offset-2 col-sm-6 col-xs-12" >
+				<img id="logo" src="images/logo.png">
+			</div>
+			<div  id="contacts" class="col-md-offset-3 col-md-2 col-sm-2 col-xs-3">
+					<div>
+						<i class="glyphicon glyphicon-earphone red-color"><span><b> 0 800 777 555</b></span></i>
+					</div>
+					<div>
+						<i class="glyphicon glyphicon-envelope red-color"><span>ngv.z.tune@gmail.com</span></i>
+					</div>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-3">
+				<div>
+					<a><i class="glyphicon glyphicon-log-in red-color"><span>Вход</span></i></a>
+				</div>
+				<div>
+					<a><i class="glyphicon glyphicon-check red-color"><span>Регистрация</span></i></a>
+				</div>
+			</div>
+			<div  class="col-md-1 col-sm-2 col-xs-3">
+				<i class="glyphicon glyphicon-shopping-cart red-color" ><span>Корзина</span></i>
 			</div>
 		</div>	
 			<!--<div  id="shopping-cart" class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
@@ -60,21 +77,15 @@
 <div class="wrapper-bg-black"> 
 	<div class="container"> 
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md-offset-3 col-md-9">
 				<ul id="navbar" class="nav navbar-nav ">
-					
-					<li class="active"><button type="button" class="btn btn-danger">Главная</button></li>
-					<li><button type="button" class="btn btn-danger">Оплата и доставка</button></li>
-					<li><button type="button" class="btn btn-danger">О нас</button></li>
-					<li><button type="button" class="btn btn-danger">Контакты</button></li>
-					
+					<li class="active"><a href="#">Главная</a></li>
+					<li><a href="#">Оплата и доставка</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Контакты</a></li>
 				</ul>
 			</div>
-			<div class="col-md-4">
-				<input id="search" type="text" class="form-control" placeholder="Поиск">
-				<button id="button-search" class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-			</div>
-				
+	
 		</div>
 		
 			
@@ -84,8 +95,13 @@
 <div class="wrapper-bg">
 	<div class="container"> 	
 		<div class="row" id="third-line">
+			
             <div class="col-md-3 col-sm-3 col-xs-12" id="category-list">
-				<button type="button" class="btn btn-danger">Каталог</button>
+            	<div id="wrapper-search">
+            		<input id="search" type="text" class="form-control" placeholder="Поиск">
+            		<button id="button-search" class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+            	</div>
+				<button id='catalog' type="button" class="btn btn-danger">Каталог</button>
 				<ul  class="nav">
 
 					<li><a href="#" >Оборудование и техника</a></li>
@@ -96,8 +112,39 @@
 					
 				</ul>
              </div>
-			 <div class="col-md-9 col-sm-9 " id="reklama">
-				<img src="images/reklama.jpg">
+			 <div class="col-md-9 col-sm-9 col-xs-12" id="reklama">
+				<img src="images/reklama2.jpg">
+				<!--<div class="item col-md-3 col-xs-6">
+					<div class="item-img text-center"><img  src="images/category1.png"></div>
+					<div class="item-name"><strong>Паяльник</strong></div>
+				</div>
+				<div class="item col-md-3 col-xs-6">
+					<div class="item-img text-center"><img  src="images/category2.png"></div>
+					<div class="item-name"><strong>Паяльник</strong></div>
+				</div>
+				<div class="item col-md-3 col-xs-6">
+					<div class="item-img text-center"><img  src="images/category3.png"></div>
+					<div class="item-name"><strong>Паяльник</strong></div>
+				</div>
+				<div class="item col-md-3 col-xs-6">
+					<div class="item-img text-center"><img  src="images/category4.png"></div>
+					<div class="item-name"><strong>Паяльник</strong></div>
+				</div>-->
+
+				<ul class="nav navbar-nav">
+					<li><img src="images/category1.png" alt="Паяльные станции"></li>
+					<li><img src="images/category2.png" alt=""></li>
+					<li><img src="images/category3.png" alt=""></li>
+					<li><img src="images/category4.png" alt=""></li>
+					<li><img src="images/category5.png" alt=""></li>
+				</ul>
+				<ul class="nav navbar-nav">
+					<li><img src="images/category6.png" alt="Паяльные станции"></li>
+					<li><img src="images/category7.png" alt=""></li>
+					<li><img src="images/category8.png" alt=""></li>
+					<li><img src="images/category9.png" alt=""></li>
+					<li><img src="images/category10.png" alt=""></li>
+				</ul>
              </div>
                 
         </div>
