@@ -1,280 +1,262 @@
 <!DOCTYPE html>
 <html>
 <head lang="ru">
-    <meta charset="UTF-8">
-    <title>RD-BOX</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>RD-BOX</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
-    <link href="stylesheets/style.css" rel="stylesheet">
+	<link href="stylesheets/style.css" rel="stylesheet">
 
 </head>
 <body>
-<!--<div class="wrapper-bg">
-    <div class="container">
-        <div  id="first-row" class="row padding5">
-            
-				<div  id="contacts" class="col-md-7 col-sm-6 col-xs-6">
-					<i class="glyphicon glyphicon-earphone red-color"><span></span></i>&nbsp  &nbsp &nbsp 
-					<i class="glyphicon glyphicon-envelope red-color"><span>ngv.z.tune@gmail.com</span></i>	
+
+	<div id="wrapper-bg-second-line">
+		<div class="container">
+			<div class="row" id="second-line">
+				<div class="col-md-2 col-md-offset-2 col-sm-6 col-xs-12" >
+					<img id="logo" src="images/logo.png">
 				</div>
-                <div  id="login" class="col-md-4 col-sm-6 col-xs-6" >
-					
-					
-					
-					<div id="shopping-cart-glif" >
-					<i class="glyphicon glyphicon-shopping-cart" ></i>
-				
-					</div>
-					<a><i class="glyphicon glyphicon-log-in red-color"><span>Вход</span></i></a>&nbsp &nbsp &nbsp
-					<a><i class="glyphicon glyphicon-check red-color"><span>Регистрация</span></i></a>	 &nbsp &nbsp &nbsp
-				</div>
-            
-		</div>		
-    </div>
-</div>-->
-<div id="wrapper-bg-second-line">
-	<div class="container">
-		<div class="row" id="second-line">
-			<div class="col-md-2 col-md-offset-2 col-sm-6 col-xs-12" >
-				<img id="logo" src="images/logo.png">
-			</div>
-			<div  id="contacts" class="col-md-offset-3 col-md-2 col-sm-2 col-xs-3">
+				<div  id="contacts" class="col-md-offset-3 col-md-2 col-sm-2 col-xs-3">
 					<div>
 						<i class="glyphicon glyphicon-earphone red-color"><span><b> 0 800 777 555</b></span></i>
 					</div>
 					<div>
 						<i class="glyphicon glyphicon-envelope red-color"><span>ngv.z.tune@gmail.com</span></i>
 					</div>
-			</div>
-			<div class="col-md-2 col-sm-2 col-xs-3">
-				<div>
-					<a><i class="glyphicon glyphicon-log-in red-color"><span>Вход</span></i></a>
 				</div>
-				<div>
-					<a><i class="glyphicon glyphicon-check red-color"><span>Регистрация</span></i></a>
+				<div class="col-md-2 col-sm-2 col-xs-3">
+					<div>
+						<a><i class="glyphicon glyphicon-log-in red-color"><span>Вход</span></i></a>
+					</div>
+					<div>
+						<a><i class="glyphicon glyphicon-check red-color"><span>Регистрация</span></i></a>
+					</div>
 				</div>
-			</div>
-			<div  class="col-md-1 col-sm-2 col-xs-3">
-				<i class="glyphicon glyphicon-shopping-cart red-color" ><span>Корзина</span></i>
-			</div>
-		</div>	
-			<!--<div  id="shopping-cart" class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
-				<div id="text-shopping-cart" class="well">
-					<div id="wrapper-shopping-car-text">
-						<span>Корзина:</span>&nbsp&nbsp<span>0.00 грн</span>
-					</div>
-					<div id="shopping-cart-glif">
-						<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>	
-					
-					
-			</div>-->
-	</div>		
-</div>	
+				<div  class="col-md-1 col-sm-2 col-xs-3">
+					<i class="glyphicon glyphicon-shopping-cart red-color" ><span>Корзина</span></i>
+				</div>
+			</div>	
 
-<div class="wrapper-bg-black"> 
-	<div class="container"> 
-		<div class="row">
-			<div class="col-md-offset-3 col-md-9">
-				<ul id="navbar" class="nav navbar-nav ">
-					<li class="active"><a href="#">Главная</a></li>
-					<li><a href="#">Оплата и доставка</a></li>
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
+		</div>		
+	</div>	
+
+	<div class="wrapper-bg-black"> 
+		<div class="container"> 
+			<div class="row">
+				<div class="col-md-offset-3 col-md-9">
+					<ul id="navbar" class="nav navbar-nav ">
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">Оплата и доставка</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+
 			</div>
-	
-		</div>
-		
+
 			
+		</div>
+	</div>	
+
+	<div class="wrapper-bg">
+		<div class="container"> 	
+			<div class="row" id="third-line">
+
+				<div class="col-md-3 col-sm-3 col-xs-12" id="category-list">
+					<div id="wrapper-search">
+						<input id="search" type="text" class="form-control" placeholder="Поиск">
+						<button id="button-search" class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+					<button id='catalog' type="button" class="btn btn-danger">Каталог</button>
+					<ul  class="nav">
+
+						<li><a href="#" >Оборудование</a></li>
+						<li><a href="#">Электронные компоненты, радиодетали</a></li>
+						<li><a href="#">Кнопки,переключатели, индикаторы</a></li>
+						<li><a href="#">Инструменты</a></li>
+						<li><a href="#">Расходные материалы</a></li>
+						<li><a href="#" >Провода,шнуры, кабели</a></li>
+						<li><a href="#">Трансформаторы</a></li>
+						<li><a href="#">Разъемы</a></li>
+						<li><a href="#">Системы охлаждения</a></li>
+						<li><a href="#">Блоки, элементы питания</a></li>
+						<li><a href="#">Источники звука</a></li>
+						<li><a href="#">Корпуса</a></li>
+
+					</ul>
+				</div>
+				<div class="container">
+					<div class="col-md-9 col-sm-9 col-xs-12" id="reklama">
+						<div class="row">
+							<img src="images/reklama2.jpg">
+						</div>
+						<div class="row" id="category-list-img">
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category1.png"></div>
+									<div class="item-name"><strong>Паяльные станции</strong></div>
+								</div>
+							</div>
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category2.png"></div>
+									<div class="item-name"><strong>Пробники и тестеры</strong></div>
+								</div>
+							</div>
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category3.png"></div>
+									<div class="item-name"><strong>Ручной инструмент</strong></div>
+								</div>
+							</div>	
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category4.png"></div>
+									<div class="item-name"><strong>Макетные платы и стеклотекстолит</strong></div>
+								</div>
+							</div>
+						</div>
+						<div class="row" id="category-list-img">
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category9.png"></div>
+									<div class="item-name"><strong>Измерители температуры и влажности</strong></div>
+								</div>
+							</div>
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category6.png"></div>
+									<div class="item-name"><strong>Автомобильная электроника</strong></div>
+								</div>
+							</div>
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category7.png"></div>
+									<div class="item-name"><strong>Электронные развивающие конструкторы</strong></div>
+								</div>
+							</div>	
+							<div class="item col-md-3 col-xs-6">
+								<div class="border-category">
+									<div class="item-img text-center"><img  src="images/category8.png"></div>
+									<div class="item-name"><strong>Газовые паяльники</strong></div>
+								</div>
+							</div>
+						</div>
+						<div class="row" id="four-line" >
+							<h2 class="head-category  col-md-3">Лидеры продаж</h2>
+						</div>
+
+						<div class="row item-list" >		
+
+
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+						</div>
+						<div class="row" >
+							<h2 class="head-category  col-md-3 ">Новинки</h2>
+						</div>
+
+						<div class="row item-list">		
+
+
+						<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+							<div class="item-cart col-md-3 col-xs-6">
+								<div class="item-img text-center"><img  src="images/item4.png"></div>
+								<div class="item-brend">Mastech</div>
+								<div class="item-name"><strong>MS8239C, Мультиметр цифровой</strong></div>
+								<div class="item-price"><span>3233 грн.</span></div>
+								<div class="add-to-cart">
+									<strong>Подробнее</strong>
+								</div>
+							</div>
+						</div>
+						<div class='row slider-wrapper'>
+							<div class="slider-brend col-md-12 ">
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+								<div class="slide"><img src="images/logobrend.jpg"></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
 	</div>
-</div>	
-
-<div class="wrapper-bg">
-	<div class="container"> 	
-		<div class="row" id="third-line">
-			
-            <div class="col-md-3 col-sm-3 col-xs-12" id="category-list">
-            	<div id="wrapper-search">
-            		<input id="search" type="text" class="form-control" placeholder="Поиск">
-            		<button id="button-search" class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-            	</div>
-				<button id='catalog' type="button" class="btn btn-danger">Каталог</button>
-				<ul  class="nav">
-
-					<li><a href="#" >Оборудование и техника</a></li>
-					<li><a href="#">Измерительные приборы</a></li>
-					<li><a href="#">Инструменты и материалы</a></li>
-					<li><a href="#">Источники энергии</a></li>
-					<li><a href="#">Электронные компоненты</a></li>
-					
-				</ul>
-             </div>
-			 <div class="col-md-9 col-sm-9 col-xs-12" id="reklama">
-				<img src="images/reklama2.jpg">
-				<!--<div class="item col-md-3 col-xs-6">
-					<div class="item-img text-center"><img  src="images/category1.png"></div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img text-center"><img  src="images/category2.png"></div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img text-center"><img  src="images/category3.png"></div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img text-center"><img  src="images/category4.png"></div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-				</div>-->
-
-				<ul class="nav navbar-nav">
-					<li><img src="images/category1.png" alt="Паяльные станции"></li>
-					<li><img src="images/category2.png" alt=""></li>
-					<li><img src="images/category3.png" alt=""></li>
-					<li><img src="images/category4.png" alt=""></li>
-					<li><img src="images/category5.png" alt=""></li>
-				</ul>
-				<ul class="nav navbar-nav">
-					<li><img src="images/category6.png" alt="Паяльные станции"></li>
-					<li><img src="images/category7.png" alt=""></li>
-					<li><img src="images/category8.png" alt=""></li>
-					<li><img src="images/category9.png" alt=""></li>
-					<li><img src="images/category10.png" alt=""></li>
-				</ul>
-             </div>
-                
-        </div>
-        <div class="row" id="four-line" >
-			<h2 class="head-category well col-md-3">ПОСЛЕДНИЕ ПОСТУПЛЕНИЯ</h2>
-		</div>
-		
-		<div class="row height-recent" >		
-            
-				
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img text-center"><img  src="images/item1.jpg"></div>
-					
-					<div class="item-price">120.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-						
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-						
-						
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-						
-					</div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img  src="images/item2.jpg"></div>
-					
-					<div class="item-price">120.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img  src="images/item3.jpg"></div>
-					
-					<div class="item-price">230.00  грн.</div>
-					<div class="item-name"><strong>Паяльник </strong></div>
-					<div class="add-to-cart well">
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img  src="images/item2.jpg"></div>
-					
-					<div class="item-price">240.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>
-        </div>
-		<div class="row" >
-			<h2 class="head-category well col-md-3 margin0" id="recent">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
-		</div>
-		<div class="row gray-line">
-		</div>
-		<div class="row height-recent">		
-            
-				
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img src="images/item1.jpg"></div>
-					<div class="item-price">120.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-						
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-						
-						
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-						
-					</div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img src="images/item2.jpg"></div>
-					<div class="item-price">120.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img src="images/item3.jpg"></div>
-					<div class="item-price">230.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>
-				<div class="item col-md-3 col-xs-6">
-					<div class="item-img"><img src="images/item2.jpg"></div>
-					<div class="item-price">240.00  грн.</div>
-					<div class="item-name"><strong>Паяльник</strong></div>
-					<div class="add-to-cart well">
-							<strong>ДОБАВИТЬ В КОРЗИНУ</strong>
-							<i class="glyphicon glyphicon-shopping-cart" ></i>
-					</div>
-				</div>
-        </div>
-		<div class='row slider-wrapper'>
-			<div class="slider-brend col-md-12 ">
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			  <div class="slide"><img src="images/logobrend.jpg"></div>
-			</div>
-		</div>
-		
-    </div>
-    
-</div>
-
-        
-        <div class="row" id="footer">
-            <div class="container" >
+	<div class="row" id="footer">
+		<div class="container" >
 			<div class="row">
 				<h2 class="col-md-12 gray-color text-center" >Наши контакты</h2>
 			</div>
 			
-            <div class="col-md-6" id="contacts">
+			<div class="col-md-6" id="contacts">
 				
 				<div class="contact-information">
 					<i class="glyphicon glyphicon-earphone gray-color"></i>
@@ -294,40 +276,40 @@
 			</div>
 			
 			<form class="form-horizontal col-md-6" role="form">
-			<div class="form-group">
-				<div class="col-md-8 ">
-					<input type="text" class="form-control" placeholder="Имя" >
+				<div class="form-group">
+					<div class="col-md-8 ">
+						<input type="text" class="form-control" placeholder="Имя" >
+					</div>
 				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-md-8">
-					<input type="email" class="form-control" placeholder="E-mail" >
+				<div class="form-group">
+					<div class="col-md-8">
+						<input type="email" class="form-control" placeholder="E-mail" >
+					</div>
 				</div>
-			</div>
-			<div class="form-group">
-				<div class="col-md-8">
-					<input type="text" class="form-control" placeholder="Тема" >
+				<div class="form-group">
+					<div class="col-md-8">
+						<input type="text" class="form-control" placeholder="Тема" >
+					</div>
 				</div>
-			</div>
-			<div class="form-group">			
-				<div class="col-md-8">
-					<textarea placeholder="Ваш текст" class="form-control" ></textarea>
+				<div class="form-group">			
+					<div class="col-md-8">
+						<textarea placeholder="Ваш текст" class="form-control" ></textarea>
+					</div>
+				</div>	
+				<div class="form-group">
+					<div class="col-md-8" id="sent">
+						<button type="submit" class="btn btn-default">Отправить</button>
+					</div>
 				</div>
-			</div>	
-			<div class="form-group">
-				<div class="col-md-8" id="sent">
-					<button type="submit" class="btn btn-default">Отправить</button>
-				</div>
-			</div>
 			</form>
-            
 
 
-        </div>
-    </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
+
+		</div>
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/myjs.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/myjs.js"></script>
 </body>
 </html>
